@@ -71,6 +71,7 @@ class Main extends React.Component {
 	};
 
 	async handleSelectChange(selectedOption) {
+		console.log('here-')
 		this.setState({ selectedRestaurant: selectedOption, loading: true });
 		this.clearMarkers();
 		try {

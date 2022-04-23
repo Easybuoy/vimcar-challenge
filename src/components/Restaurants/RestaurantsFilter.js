@@ -9,21 +9,21 @@ const RestaurantsFilter = ({
   handleFilterChange,
   isLoading,
   options,
-}) => {
-  return (
-    <div className="places-option-container">
-      <Select
-        className="places-option"
-        value={value}
-        onChange={handleFilterChange}
-        options={options}
-        isClearable
-        isLoading={isLoading}
-        placeholder="Choose restaurant"
-      />
-    </div>
-  );
-};
+}) => (
+  <div className="places-option-container" data-testid="select-restaurants">
+    <Select
+      data-testid="select-restaurant"
+      className="places-option"
+      value={value}
+      onChange={handleFilterChange}
+      options={options}
+      isClearable
+      isLoading={isLoading}
+      placeholder="Choose restaurant"
+      
+    />
+  </div>
+);
 
 RestaurantsFilter.displayName = 'components/RestaurantsFilter';
 

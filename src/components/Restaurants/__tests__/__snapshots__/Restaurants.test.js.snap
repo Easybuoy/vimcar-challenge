@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Restaurants should render and match styles 1`] = `
+<div
+  class="card"
+>
+  <img
+    alt="Stadtklause"
+    src="https://s3-media3.fl.yelpcdn.com/bphoto/UtjeEmgk-RtAoTc7pJluDQ/o.jpg"
+  />
+  <div
+    class="container"
+  >
+    <h4>
+      <a
+        href="https://www.yelp.com/biz/stadtklause-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA"
+      >
+        Stadtklause
+      </a>
+    </h4>
+    <p>
+      +49 30 51056381
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Restaurants should render and match styles 2`] = `
+<div
+  class="card"
+>
+  <img
+    alt="Stadtklause"
+    src="https://s3-media3.fl.yelpcdn.com/bphoto/UtjeEmgk-RtAoTc7pJluDQ/o.jpg"
+  />
+  <div
+    class="container"
+  >
+    <h4>
+      <a
+        href="https://www.yelp.com/biz/stadtklause-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA"
+      >
+        Stadtklause
+      </a>
+    </h4>
+    <p>
+      +49 30 51056381
+    </p>
+  </div>
+</div>
+`;
