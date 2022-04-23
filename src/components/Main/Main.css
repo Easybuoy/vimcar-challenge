@@ -4,6 +4,16 @@ main {
   justify-content: center;
 }
 
+.places-option-container {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.places-option {
+  width: 30%;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
